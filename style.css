@@ -1,0 +1,170 @@
+body{
+  font-family: arial;
+  background-color: #ffffea;
+}
+table {
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border: black solid 3px;
+}
+td{
+   border-radius: 5px;
+   border: 1px black solid;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+.sched {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+}
+img{
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  border: black solid;
+  margin-top: 50px;
+  border-radius: 10%;
+}
+.sched td:first-child {
+    width: 10%;
+}
+
+.sched td:nth-child(n+2) {
+    width: 15%;
+}
+#siraljohn{
+background-color: #c45335;
+color: #FFFF66;
+}
+#siraljohn1{
+background-color: #c45335;
+color: #FFFF66
+}
+#siraljohn2{
+background-color: #c45335;
+color: #FFFF66
+}
+#sirdungo{
+background-color: #cc7a3d;
+color: #003366;
+}
+#sirdungo1{
+background-color: #cc7a3d;
+color: #003366;
+}
+#sirdungo2{
+background-color: #cc7a3d;
+color: #003366;
+}
+#sirmarco{
+background-color: #e6c994;
+color: #4B0082;
+}
+#sirmarco1{
+background-color: #e6c994;
+color: #4B0082;
+}
+#sirmarco2{
+background-color: #e6c994;
+color: #4B0082;
+}
+#sirlara{
+background-color: #fbf2c4;
+color: #006400;
+}
+#sirlara1{
+background-color: #fbf2c4;
+color: #006400;
+}
+#sirlara2{
+background-color: #fbf2c4;
+color: #006400;
+}
+#msjasper{
+background-color: #74a892;
+color: #8b0000;
+}
+#msjasper1{
+background-color: #74a892;
+color: #8b0000;
+}
+#msescote{
+background-color: #008585;
+color: #FFFF99;
+}
+#msescote1{
+background-color: #008585;
+color: #FFFF99;
+}
+#msescote2{
+background-color: #008585;
+color: #FFFF99;
+}
+#msparica{
+background-color: #78938a;
+color: #4B0082;
+}
+#time{
+  background-color: #fff0d4;
+}
+#time1{
+  background-color: #fff0d4;
+}
+#time2{
+  background-color: #fff0d4;
+}
+#time3{
+  background-color: #fff0d4;
+}
+#time4{
+  background-color: #fff0d4;
+}
+#time5{
+  background-color: #fff0d4;
+}
+#time6{
+  background-color: #fff0d4;
+}
+#time7{
+  background-color: #fff0d4;
+}
+#time8{
+  background-color: #fff0d4;
+}
+#time9{
+  background-color: #fff0d4;
+}
+#time0{
+  background-color: #fff0d4;
+}
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white; 
+        color: black; 
+    }
+
+    img{
+        filter: grayscale(100%);
+    }
+
+    .sched th{
+        color: black;
+    }
+
+    .sched td {
+        background-color: #ccc; 
+    }
+}
